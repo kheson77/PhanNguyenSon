@@ -22,6 +22,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: cursive;
+}
+.App-header div li{
+  list-style-type: none;
 }
 
 .App-link {
@@ -35,4 +39,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+.body{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  /* align-items: center; */
+}
+input{
+  margin-top: 10px;
+}
+.add{
+  width: 30%;
+  margin: 10px 0px 10px 0px;
+}
+
+table{
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  /* background-color: green; */
+  border-radius: 20;
+}
+table, td, th {
+  border: 1px solid white;
 }
